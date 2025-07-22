@@ -33,17 +33,24 @@ First, set up a virtual environment (optional but recommended):
 
 ```bash
 python -m venv venv
+```
 # Activate (Windows)
+```bash
 venv\Scripts\activate
+```
 # or (macOS/Linux)
+```bash
 source venv/bin/activate
-
+```
 Then install required packages:
+```bash
 pip install -r requirements.txt
-
+```
 ### 2. 🧠 Train the Model
 Run the training script:
+```bash
 python train.py
+```
 This will:
 
 Load and preprocess images
@@ -56,8 +63,9 @@ You’ll see output like training accuracy, model summary, and progress over 20 
 
 3. 🖼 Predict Using GUI
 Once the model is trained, run the GUI for real-time predictions:
-
+```bash
 python test_code.py
+```
 This will open a simple window where you can:
 
 📁 Select a leaf image
@@ -82,9 +90,6 @@ Categorical cross-entropy loss
 Adam optimizer
 
 📁 Project Structure
-graphql
-Copy
-Edit
 plant_disease/
 ├── Dataset/              # Folder with images (Healthy/ and Disease/)
 ├── model/                # Stores saved model weights, JSON, and training history

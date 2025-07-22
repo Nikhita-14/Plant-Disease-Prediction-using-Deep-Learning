@@ -17,10 +17,11 @@ This project builds a Convolutional Neural Network (CNN) to classify plant leave
 4. Place the extracted `Dataset/` folder in the root of this project directory.
 
 The folder should contain:
+```graphql
 Dataset/
 ├── Disease/
 └── Healthy/
-
+```
 Each subfolder contains labeled plant leaf images.
 
 ---
@@ -90,6 +91,7 @@ Categorical cross-entropy loss
 Adam optimizer
 
 📁 Project Structure
+```graphql
 plant_disease/
 ├── Dataset/              # Folder with images (Healthy/ and Disease/)
 ├── model/                # Stores saved model weights, JSON, and training history
@@ -97,7 +99,7 @@ plant_disease/
 ├── test_code.py          # GUI for image classification
 ├── requirements.txt      # Python dependencies
 └── README.md
-
+```
 🔐 License
 This project is open-source and free to use for educational and non-commercial purposes.
 If you use this work in a publication or application, please consider crediting the original dataset uploader.
